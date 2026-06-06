@@ -20,7 +20,6 @@ class _FormValidationState extends State<FormValidation> {
     phoneController.clear();
     emailController.clear();
     passwordController.clear();
-
     formkey.currentState!.reset();
   }
 
@@ -139,7 +138,7 @@ class _FormValidationState extends State<FormValidation> {
               SizedBox(height: 15),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blueAccent,
+                  backgroundColor: const Color.fromARGB(255, 220, 233, 255),
                   foregroundColor: Colors.white,
                 ),
                 onPressed: () {

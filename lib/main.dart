@@ -1,5 +1,4 @@
-import 'package:again_start_flutter/screens/formvalidation.dart';
-import 'package:again_start_flutter/screens/textfield.dart';
+import 'package:again_start_flutter/screens/bottomnav2.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FormValidation(),
+      home: BottomNav2(),
     );
   }
 }
